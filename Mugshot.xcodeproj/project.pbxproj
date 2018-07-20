@@ -10,6 +10,9 @@
 		B97860582102345200ADF777 /* Mugshot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B978604E2102345200ADF777 /* Mugshot.framework */; };
 		B978605D2102345200ADF777 /* MugshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978605C2102345200ADF777 /* MugshotTests.swift */; };
 		B978605F2102345200ADF777 /* Mugshot.h in Headers */ = {isa = PBXBuildFile; fileRef = B97860512102345200ADF777 /* Mugshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B978606B2102346700ADF777 /* UserTesterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97860682102346700ADF777 /* UserTesterViewController.swift */; };
+		B978606C2102346700ADF777 /* UserTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97860692102346700ADF777 /* UserTester.swift */; };
+		B978606D2102346700ADF777 /* PlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978606A2102346700ADF777 /* PlaybackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		B97860572102345200ADF777 /* MugshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MugshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B978605C2102345200ADF777 /* MugshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MugshotTests.swift; sourceTree = "<group>"; };
 		B978605E2102345200ADF777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B97860682102346700ADF777 /* UserTesterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTesterViewController.swift; sourceTree = "<group>"; };
+		B97860692102346700ADF777 /* UserTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTester.swift; sourceTree = "<group>"; };
+		B978606A2102346700ADF777 /* PlaybackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 		B97860502102345200ADF777 /* Mugshot */ = {
 			isa = PBXGroup;
 			children = (
+				B978606A2102346700ADF777 /* PlaybackViewController.swift */,
+				B97860692102346700ADF777 /* UserTester.swift */,
+				B97860682102346700ADF777 /* UserTesterViewController.swift */,
 				B97860512102345200ADF777 /* Mugshot.h */,
 				B97860522102345200ADF777 /* Info.plist */,
 			);
@@ -148,6 +157,7 @@
 				TargetAttributes = {
 					B978604D2102345200ADF777 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					B97860562102345200ADF777 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -194,6 +204,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B978606D2102346700ADF777 /* PlaybackViewController.swift in Sources */,
+				B978606B2102346700ADF777 /* UserTesterViewController.swift in Sources */,
+				B978606C2102346700ADF777 /* UserTester.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +352,7 @@
 		B97860632102345200ADF777 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ladbiblegroup.Mugshot;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +379,7 @@
 		B97860642102345200ADF777 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +405,7 @@
 		B97860662102345200ADF777 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L8XCFGQMXB;
 				INFOPLIST_FILE = MugshotTests/Info.plist;
@@ -407,6 +424,7 @@
 		B97860672102345200ADF777 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L8XCFGQMXB;
 				INFOPLIST_FILE = MugshotTests/Info.plist;
