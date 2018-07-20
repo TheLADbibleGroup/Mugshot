@@ -13,6 +13,7 @@
 		B978606B2102346700ADF777 /* UserTesterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97860682102346700ADF777 /* UserTesterViewController.swift */; };
 		B978606C2102346700ADF777 /* UserTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97860692102346700ADF777 /* UserTester.swift */; };
 		B978606D2102346700ADF777 /* PlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978606A2102346700ADF777 /* PlaybackViewController.swift */; };
+		B978606F21023ABF00ADF777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978606E21023ABF00ADF777 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		B97860682102346700ADF777 /* UserTesterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTesterViewController.swift; sourceTree = "<group>"; };
 		B97860692102346700ADF777 /* UserTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTester.swift; sourceTree = "<group>"; };
 		B978606A2102346700ADF777 /* PlaybackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackViewController.swift; sourceTree = "<group>"; };
+		B978606E21023ABF00ADF777 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				B978606A2102346700ADF777 /* PlaybackViewController.swift */,
 				B97860692102346700ADF777 /* UserTester.swift */,
+				B978606E21023ABF00ADF777 /* AppDelegate.swift */,
 				B97860682102346700ADF777 /* UserTesterViewController.swift */,
 				B97860512102345200ADF777 /* Mugshot.h */,
 				B97860522102345200ADF777 /* Info.plist */,
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B978606F21023ABF00ADF777 /* AppDelegate.swift in Sources */,
 				B978606D2102346700ADF777 /* PlaybackViewController.swift in Sources */,
 				B978606B2102346700ADF777 /* UserTesterViewController.swift in Sources */,
 				B978606C2102346700ADF777 /* UserTester.swift in Sources */,
